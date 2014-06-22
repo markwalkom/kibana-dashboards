@@ -1,10 +1,10 @@
 {
-  "title": "OpenSIPS Responses (Similar to HTTP response codes)",
+  "title": "SIP Responses (Similar to HTTP response codes)",
   "services": {
     "query": {
       "list": {
         "0": {
-          "query": "_type:\"opensip-response\" AND response_code:\"484\"",
+          "query": "_type:\"sip-response\" AND response_code:\"484\"",
           "alias": "",
           "color": "#7EB26D",
           "id": 0,
@@ -19,7 +19,7 @@
           "pin": false,
           "type": "lucene",
           "enable": true,
-          "query": "_type:\"opensip-response\" AND response_code:\"408\""
+          "query": "_type:\"sip-response\" AND response_code:\"408\""
         },
         "2": {
           "id": 2,
@@ -28,7 +28,7 @@
           "pin": false,
           "type": "lucene",
           "enable": true,
-          "query": "_type:\"opensip-response\" AND response_code:\"486\""
+          "query": "_type:\"sip-response\" AND response_code:\"486\""
         },
         "3": {
           "id": 3,
@@ -37,7 +37,7 @@
           "pin": false,
           "type": "lucene",
           "enable": true,
-          "query": "_type:\"opensip-response\" AND response_code:\"480\""
+          "query": "_type:\"sip-response\" AND response_code:\"480\""
         },
         "4": {
           "id": 4,
@@ -46,7 +46,7 @@
           "pin": false,
           "type": "lucene",
           "enable": true,
-          "query": "_type:\"opensip-response\" AND response_code:\"487\""
+          "query": "_type:\"sip-response\" AND response_code:\"487\""
         },
         "5": {
           "id": 5,
@@ -55,7 +55,7 @@
           "pin": false,
           "type": "lucene",
           "enable": true,
-          "query": "_type:\"opensip-response\" AND response_code:\"484\""
+          "query": "_type:\"sip-response\" AND response_code:\"484\""
         },
         "6": {
           "id": 6,
@@ -64,7 +64,7 @@
           "pin": false,
           "type": "lucene",
           "enable": true,
-          "query": "_type:\"opensip-response\" AND response_code:\"503\""
+          "query": "_type:\"sip-response\" AND response_code:\"503\""
         },
         "7": {
           "id": 7,
@@ -73,7 +73,7 @@
           "pin": false,
           "type": "lucene",
           "enable": true,
-          "query": "_type:\"opensip-response\" AND response_code:\"500\""
+          "query": "_type:\"sip-response\" AND response_code:\"500\""
         },
         "8": {
           "id": 8,
@@ -82,7 +82,7 @@
           "pin": false,
           "type": "lucene",
           "enable": true,
-          "query": "_type:\"opensip-response\" AND response_code:\"501\""
+          "query": "_type:\"sip-response\" AND response_code:\"501\""
         },
         "9": {
           "id": 9,
@@ -91,7 +91,7 @@
           "pin": false,
           "type": "lucene",
           "enable": true,
-          "query": "_type:\"opensip-response\" AND carrier:\"carrier1\""
+          "query": "_type:\"sip-response\" AND carrier:\"carrier1\""
         },
         "10": {
           "id": 10,
@@ -100,7 +100,7 @@
           "pin": false,
           "type": "lucene",
           "enable": true,
-          "query": "_type:\"opensip-response\" AND carrier:\"carrier2\""
+          "query": "_type:\"sip-response\" AND carrier:\"carrier2\""
         },
         "11": {
           "id": 11,
@@ -109,7 +109,7 @@
           "pin": false,
           "type": "lucene",
           "enable": true,
-          "query": "_type:\"opensip-response\" AND carrier:\"carrier3\""
+          "query": "_type:\"sip-response\" AND carrier:\"carrier3\""
         }
       },
       "ids": [
@@ -914,16 +914,16 @@
       "query": "*",
       "pinned": true,
       "history": [
-        "_type:\"opensip-response\" AND carrier:\"carrier3\"",
-        "_type:\"opensip-response\" AND carrier:\"carrier2\"",
-        "_type:\"opensip-response\" AND carrier:\"carrier1\"",
-        "_type:\"opensip-response\" AND response_code:\"501\"",
-        "_type:\"opensip-response\" AND response_code:\"500\"",
-        "_type:\"opensip-response\" AND response_code:\"503\"",
-        "_type:\"opensip-response\" AND response_code:\"484\"",
-        "_type:\"opensip-response\" AND response_code:\"487\"",
-        "_type:\"opensip-response\" AND response_code:\"480\"",
-        "_type:\"opensip-response\" AND response_code:\"486\""
+        "_type:\"sip-response\" AND carrier:\"carrier3\"",
+        "_type:\"sip-response\" AND carrier:\"carrier2\"",
+        "_type:\"sip-response\" AND carrier:\"carrier1\"",
+        "_type:\"sip-response\" AND response_code:\"501\"",
+        "_type:\"sip-response\" AND response_code:\"500\"",
+        "_type:\"sip-response\" AND response_code:\"503\"",
+        "_type:\"sip-response\" AND response_code:\"484\"",
+        "_type:\"sip-response\" AND response_code:\"487\"",
+        "_type:\"sip-response\" AND response_code:\"480\"",
+        "_type:\"sip-response\" AND response_code:\"486\""
       ],
       "remember": 10,
       "enable": true
