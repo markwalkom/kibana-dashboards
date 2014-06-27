@@ -17,3 +17,5 @@ Dashboards
  * Collectd_Server_Metrics by @deepakmdass88 from http://beingasysadmin.com/blog/2014/05/05/extending-elk-stack-to-voip-infrastructure/
  * SIP-Responses by @deepakmdass88 from http://beingasysadmin.com/blog/2014/05/05/extending-elk-stack-to-voip-infrastructure/
  * network-ops by @ccurtis584 from http://www.networkassassin.com/elk-for-network-operations/
+ * ZNC aggregation by rrix from https://gist.github.com/rrix/a0e52d34aee6541b2b26
+ * Aggregated logging by cclmejt from http://www.reddit.com/r/sysadmin/comments/1nq5hu/kibana_configs_what_are_your_saved/cclmejt
