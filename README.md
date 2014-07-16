@@ -1,19 +1,25 @@
 kibana-dashboards
 =================
 
-A collection of Kibana dashboards from the community.
-Please feel free to submit pull requests for any dashboard, with a sample screen shot, that you are willing to share.
+A collection of Kibana dashboards from the community. Many of these have corresponding Logstash configs at the URL, so don't forget to check them!
 
-The procedure for submitting is;
- * Place dashboard under dashboards/{twitter handle-}dashboard_name.json
- * Place screenshot under screenshots/{twitter handle-}dashboard_name.{jpeg|jpg|gif|png}
- * Update README with details, twitter handle and URL link optional.
+Please feel free to submit pull requests for any dashboard, with a sample screen shot, that you are willing to share. The procedure for submitting is;
+* Place dashboard under dashboards/{name|handle-}dashboard_name.json
+* Place screenshot under screenshots/{name|handle-}dashboard_name.{jpeg|jpg|gif|png}
+* Update README with filename, name or twitter handle and source URL
 
 
 Dashboards
 =================
 
- * windows-ad-logging by @girlgerms from http://girl-germs.com/?p=438
- * Collectd_Server_Metrics by @deepakmdass88 from http://beingasysadmin.com/blog/2014/05/05/extending-elk-stack-to-voip-infrastructure/
- * SIP-Responses by @deepakmdass88 from http://beingasysadmin.com/blog/2014/05/05/extending-elk-stack-to-voip-infrastructure/
- * network-ops by @ccurtis584 from http://www.networkassassin.com/elk-for-network-operations/
+* girlgerms-windows\_ad_logging by [@girlgerms](https://twitter.com/girlgerms) from [http://girl-germs.com/?p=438]()
+* deepakmdass88-Collectd\_Server_Metrics by [@deepakmdass88](https://twitter.com/deepakmdass88) [from http://beingasysadmin.com/blog/2014/05/05/extending-elk-stack-to-voip-infrastructure/]()
+* deepakmdass88-SIP_Responses by [@deepakmdass88](https://twitter.com/deepakmdass88) from [http://beingasysadmin.com/blog/2014/05/05/extending-elk-stack-to-voip-infrastructure/
+]() 
+* ccurtis584-network_ops by [@ccurtis584](https://twitter.com/ccurtis584) from [http://www.networkassassin.com/elk-for-network-operations/]()
+* cclmejt-Aggregated_logging by cclmejt from [http://www.reddit.com/r/sysadmin/comments/1nq5hu/kibana_configs_what_are_your_saved/cclmejt]()
+* cvandeplas-[mactime](http://wiki.sleuthkit.org/index.php?title=Mactime)_magic by [@cvandeplas](https://twitter.com/cvandeplas) from [http://christophe.vandeplas.com/2014/06/mactime-magic-with-elk.html]()
+* cvandeplas-proxy_bluecoat by [@cvandeplas](https://twitter.com/cvandeplas) from [http://christophe.vandeplas.com/2014/07/bluecoat-proxy-log-search-and-analytics.html]()
+* cvandeplas-w3c\_extended_iis by [@cvandeplas](https://twitter.com/cvandeplas) from [https://github.com/cvandeplas/ELK-forensics]()
+* cvandeplas-mail_imss by [@cvandeplas](https://twitter.com/cvandeplas) from [https://github.com/cvandeplas/ELK-forensics]()
+* cvandeplas-proxy_iwsva by [@cvandeplas](https://twitter.com/cvandeplas) from [https://github.com/cvandeplas/ELK-forensics]()
