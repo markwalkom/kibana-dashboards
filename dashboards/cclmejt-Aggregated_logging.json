@@ -1,0 +1,635 @@
+{
+  "title": "My Dashboard",
+  "services": {
+    "query": {
+      "idQueue": [],
+      "list": {
+        "0": {
+          "query": "*",
+          "alias": "Total Logs",
+          "color": "#7EB26D",
+          "pin": false,
+          "id": 0,
+          "type": "lucene"
+        },
+        "1": {
+          "id": 1,
+          "color": "#EAB839",
+          "query": "4771",
+          "alias": "Kerberos Pre-Auth Failures",
+          "pin": false,
+          "type": "lucene"
+        },
+        "2": {
+          "id": 2,
+          "color": "#890F02",
+          "query": "@source_host:<SomeServerName>",
+          "alias": "OSSEC HIDS Alerts",
+          "pin": false,
+          "type": "lucene"
+        },
+        "3": {
+          "id": 3,
+          "color": "#7EB26D",
+          "query": "\"Alert: Data Protection, Succeeded\"",
+          "alias": "CV Successful Jobs",
+          "pin": false,
+          "type": "lucene"
+        },
+        "4": {
+          "id": 4,
+          "color": "#EAB839",
+          "query": "\"Completed w/ one or more errors\"",
+          "alias": "CV One or more Errors",
+          "pin": false,
+          "type": "lucene"
+        },
+        "5": {
+          "id": 5,
+          "color": "#890F02",
+          "query": "\"Alert: Data Protection, Failed\"",
+          "alias": "CV Failed Jobs",
+          "pin": false,
+          "type": "lucene"
+        },
+        "6": {
+          "id": 6,
+          "color": "#BA43A9",
+          "query": "@source_host:<SomeDCName> AND \"256\"",
+          "alias": "",
+          "pin": false,
+          "type": "lucene"
+        },
+        "7": {
+          "id": 7,
+          "color": "#705DA0",
+          "query": "\"8.2.8\"",
+          "alias": "EQL Replication Completions",
+          "pin": false,
+          "type": "lucene"
+        },
+        "8": {
+          "id": 8,
+          "color": "#0A437C",
+          "query": "\"any,low\"",
+          "alias": "Palo Threat:Alert",
+          "pin": false,
+          "type": "lucene"
+        },
+        "9": {
+          "id": 9,
+          "color": "#5195CE",
+          "query": "\"any,informational\"",
+          "alias": "Palo Threat: Informational",
+          "pin": false,
+          "type": "lucene"
+        },
+        "10": {
+          "id": 10,
+          "color": "#890F02",
+          "query": "\"any,high\"",
+          "alias": "Palo Threat: High",
+          "pin": false,
+          "type": "lucene"
+        },
+        "11": {
+          "id": 11,
+          "color": "#C15C17",
+          "query": "\"any,medium\"",
+          "alias": "Palo Threat: Medium",
+          "pin": false,
+          "type": "lucene"
+        },
+        "12": {
+          "id": 12,
+          "color": "#BA43A9",
+          "query": "@source_host:\"<SomeServerName>\" AND \"Password Change\"",
+          "alias": "Password Changes",
+          "pin": false,
+          "type": "lucene"
+        }
+      },
+      "ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "filter": {
+      "idQueue": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "list": {
+        "0": {
+          "from": "2013-10-04T17:47:29.722Z",
+          "to": "2013-10-05T17:47:29.722Z",
+          "field": "@timestamp",
+          "type": "time",
+          "mandate": "must",
+          "active": true,
+          "alias": "",
+          "id": 0
+        }
+      },
+      "ids": [
+        0
+      ]
+    }
+  },
+  "rows": [
+    {
+      "title": "Query",
+      "height": "50px",
+      "editable": true,
+      "collapse": false,
+      "collapsable": true,
+      "panels": [
+        {
+          "error": "",
+          "span": 4,
+          "editable": true,
+          "group": [
+            "default"
+          ],
+          "type": "timepicker",
+          "mode": "relative",
+          "time_options": [
+            "15m",
+            "1h",
+            "6h",
+            "12h",
+            "24h",
+            "2d",
+            "7d",
+            "30d"
+          ],
+          "timespan": "24h",
+          "timefield": "@timestamp",
+          "timeformat": "",
+          "refresh": {
+            "enable": false,
+            "interval": 30,
+            "min": 3
+          },
+          "filter_id": 0,
+          "status": "Stable"
+        },
+        {
+          "error": false,
+          "span": 8,
+          "editable": true,
+          "type": "query",
+          "loadingEditor": false,
+          "label": "Search",
+          "query": "*",
+          "pinned": true,
+          "history": [
+            "@source_host:\"<SomeServerName>\" AND \"Password Change\"",
+            "\"any,medium\"",
+            "\"any,high\"",
+            "\"any,informational\"",
+            "\"any,low\"",
+            "\"8.2.8\"",
+            "@source_host:<SomeServerName> AND \"256\"",
+            "\"Alert: Data Protection, Failed\"",
+            "\"Completed w/ one or more errors\"",
+            "\"Alert: Data Protection, Succeeded\""
+          ],
+          "remember": 10,
+          "title": "Search Queries"
+        }
+      ]
+    },
+    {
+      "title": "Statistics",
+      "height": "160px",
+      "editable": true,
+      "collapse": false,
+      "collapsable": true,
+      "panels": [
+        {
+          "span": 4,
+          "editable": true,
+          "type": "histogram",
+          "loadingEditor": false,
+          "mode": "count",
+          "time_field": "@timestamp",
+          "queries": {
+            "mode": "selected",
+            "ids": [
+              0,
+              1,
+              2
+            ]
+          },
+          "value_field": null,
+          "auto_int": true,
+          "resolution": 100,
+          "interval": "10m",
+          "intervals": [
+            "auto",
+            "1s",
+            "1m",
+            "5m",
+            "10m",
+            "30m",
+            "1h",
+            "3h",
+            "12h",
+            "1d",
+            "1w",
+            "1M",
+            "1y"
+          ],
+          "fill": 5,
+          "linewidth": 1,
+          "timezone": "browser",
+          "spyable": true,
+          "zoomlinks": true,
+          "bars": false,
+          "stack": false,
+          "points": false,
+          "lines": true,
+          "legend": true,
+          "x-axis": true,
+          "y-axis": true,
+          "percentage": false,
+          "interactive": true,
+          "options": true,
+          "tooltip": {
+            "value_type": "cumulative",
+            "query_as_alias": false
+          },
+          "title": "Total Events"
+        },
+        {
+          "span": 4,
+          "editable": true,
+          "type": "histogram",
+          "loadingEditor": false,
+          "mode": "count",
+          "time_field": "@timestamp",
+          "queries": {
+            "mode": "selected",
+            "ids": [
+              8,
+              9,
+              10,
+              11
+            ]
+          },
+          "value_field": null,
+          "auto_int": true,
+          "resolution": 100,
+          "interval": "10m",
+          "intervals": [
+            "auto",
+            "1s",
+            "1m",
+            "5m",
+            "10m",
+            "30m",
+            "1h",
+            "3h",
+            "12h",
+            "1d",
+            "1w",
+            "1M",
+            "1y"
+          ],
+          "fill": 5,
+          "linewidth": 1,
+          "timezone": "browser",
+          "spyable": true,
+          "zoomlinks": true,
+          "bars": false,
+          "stack": false,
+          "points": false,
+          "lines": true,
+          "legend": true,
+          "x-axis": true,
+          "y-axis": true,
+          "percentage": false,
+          "interactive": true,
+          "options": true,
+          "tooltip": {
+            "value_type": "cumulative",
+            "query_as_alias": false
+          },
+          "title": "Palo Alto Threats"
+        },
+        {
+          "span": 4,
+          "editable": true,
+          "type": "histogram",
+          "loadingEditor": false,
+          "mode": "count",
+          "time_field": "@timestamp",
+          "queries": {
+            "mode": "selected",
+            "ids": [
+              3,
+              4,
+              5
+            ]
+          },
+          "value_field": null,
+          "auto_int": true,
+          "resolution": 100,
+          "interval": "10m",
+          "intervals": [
+            "auto",
+            "1s",
+            "1m",
+            "5m",
+            "10m",
+            "30m",
+            "1h",
+            "3h",
+            "12h",
+            "1d",
+            "1w",
+            "1M",
+            "1y"
+          ],
+          "fill": 5,
+          "linewidth": 1,
+          "timezone": "browser",
+          "spyable": true,
+          "zoomlinks": true,
+          "bars": true,
+          "stack": true,
+          "points": false,
+          "lines": false,
+          "legend": true,
+          "x-axis": true,
+          "y-axis": true,
+          "percentage": false,
+          "interactive": true,
+          "options": true,
+          "tooltip": {
+            "value_type": "cumulative",
+            "query_as_alias": false
+          },
+          "title": "Backup Status"
+        }
+      ]
+    },
+    {
+      "title": "Analytics",
+      "height": "150px",
+      "editable": true,
+      "collapse": false,
+      "collapsable": true,
+      "panels": [
+        {
+          "span": 4,
+          "editable": true,
+          "type": "histogram",
+          "loadingEditor": false,
+          "mode": "count",
+          "time_field": "@timestamp",
+          "queries": {
+            "mode": "selected",
+            "ids": [
+              7
+            ]
+          },
+          "value_field": null,
+          "auto_int": true,
+          "resolution": 100,
+          "interval": "10m",
+          "intervals": [
+            "auto",
+            "1s",
+            "1m",
+            "5m",
+            "10m",
+            "30m",
+            "1h",
+            "3h",
+            "12h",
+            "1d",
+            "1w",
+            "1M",
+            "1y"
+          ],
+          "fill": 5,
+          "linewidth": 1,
+          "timezone": "browser",
+          "spyable": true,
+          "zoomlinks": true,
+          "bars": false,
+          "stack": true,
+          "points": false,
+          "lines": true,
+          "legend": true,
+          "x-axis": true,
+          "y-axis": true,
+          "percentage": false,
+          "interactive": true,
+          "options": true,
+          "tooltip": {
+            "value_type": "cumulative",
+            "query_as_alias": false
+          },
+          "title": "EQL Replication Status"
+        },
+        {
+          "span": 4,
+          "editable": true,
+          "type": "histogram",
+          "loadingEditor": false,
+          "mode": "count",
+          "time_field": "@timestamp",
+          "queries": {
+            "mode": "selected",
+            "ids": [
+              12
+            ]
+          },
+          "value_field": null,
+          "auto_int": true,
+          "resolution": 100,
+          "interval": "10m",
+          "intervals": [
+            "auto",
+            "1s",
+            "1m",
+            "5m",
+            "10m",
+            "30m",
+            "1h",
+            "3h",
+            "12h",
+            "1d",
+            "1w",
+            "1M",
+            "1y"
+          ],
+          "fill": 5,
+          "linewidth": 1,
+          "timezone": "browser",
+          "spyable": true,
+          "zoomlinks": true,
+          "bars": true,
+          "stack": false,
+          "points": false,
+          "lines": false,
+          "legend": true,
+          "x-axis": true,
+          "y-axis": true,
+          "percentage": false,
+          "interactive": true,
+          "options": true,
+          "tooltip": {
+            "value_type": "cumulative",
+            "query_as_alias": false
+          },
+          "title": "Dir Sync Status"
+        },
+        {
+          "error": false,
+          "span": 4,
+          "editable": true,
+          "type": "pie",
+          "loadingEditor": false,
+          "query": {
+            "field": "@source_host",
+            "goal": 100
+          },
+          "queries": {
+            "mode": "all",
+            "ids": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ]
+          },
+          "size": 3,
+          "exclude": [],
+          "donut": false,
+          "tilt": false,
+          "legend": "above",
+          "labels": false,
+          "mode": "terms",
+          "default_field": "DEFAULT",
+          "spyable": true,
+          "title": "Hosts"
+        }
+      ]
+    },
+    {
+      "title": "Events",
+      "height": "350px",
+      "editable": true,
+      "collapse": false,
+      "collapsable": true,
+      "panels": [
+        {
+          "error": false,
+          "span": 12,
+          "editable": true,
+          "group": [
+            "default"
+          ],
+          "type": "table",
+          "size": 50,
+          "pages": 10,
+          "offset": 0,
+          "sort": [
+            "@timestamp",
+            "desc"
+          ],
+          "style": {
+            "font-size": "9pt"
+          },
+          "overflow": "min-height",
+          "fields": [
+            "@timestamp",
+            "@source_host",
+            "@fields.severity_label",
+            "@message"
+          ],
+          "highlight": [
+            "@source_host",
+            "@fields.severity_label",
+            "@message"
+          ],
+          "sortable": true,
+          "header": true,
+          "paging": true,
+          "spyable": true,
+          "queries": {
+            "mode": "selected",
+            "ids": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ]
+          },
+          "field_list": true,
+          "status": "Stable",
+          "trimFactor": 300,
+          "normTimes": true,
+          "title": "Event List"
+        }
+      ]
+    }
+  ],
+  "editable": true,
+  "index": {
+    "interval": "day",
+    "pattern": "[rsyslog-]YYYY-MM-DD",
+    "default": "NO_TIME_FILTER_OR_INDEX_PATTERN_NOT_MATCHED"
+  },
+  "style": "dark",
+  "failover": false,
+  "panel_hints": true,
+  "loader": {
+    "save_gist": false,
+    "save_elasticsearch": true,
+    "save_local": true,
+    "save_default": true,
+    "save_temp": true,
+    "save_temp_ttl_enable": true,
+    "save_temp_ttl": "30d",
+    "load_gist": true,
+    "load_elasticsearch": true,
+    "load_elasticsearch_size": 20,
+    "load_local": true,
+    "hide": false
+  }
+}
