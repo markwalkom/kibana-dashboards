@@ -23,3 +23,6 @@ Dashboards
 * cvandeplas-w3c\_extended_iis by [@cvandeplas](https://twitter.com/cvandeplas) from [https://github.com/cvandeplas/ELK-forensics]()
 * cvandeplas-mail_imss by [@cvandeplas](https://twitter.com/cvandeplas) from [https://github.com/cvandeplas/ELK-forensics]()
 * cvandeplas-proxy_iwsva by [@cvandeplas](https://twitter.com/cvandeplas) from [https://github.com/cvandeplas/ELK-forensics]()
+* sitefinity-sitefinity_backend_access by [@sitefinity](https://twitter.com/sitefinity) from [https://github.com/Sitefinity/ElasticsearchAuditLogger](https://github.com/Sitefinity/ElasticsearchAuditLogger/tree/master/Dashboards)
+* sitefinity-sitefinity_content_dashboard by [@sitefinity](https://twitter.com/sitefinity) from [https://github.com/Sitefinity/ElasticsearchAuditLogger](https://github.com/Sitefinity/ElasticsearchAuditLogger/tree/master/Dashboards)
+* sitefinity-sitefinity_user_updates by [@sitefinity](https://twitter.com/sitefinity) from [https://github.com/Sitefinity/ElasticsearchAuditLogger](https://github.com/Sitefinity/ElasticsearchAuditLogger/tree/master/Dashboards)
