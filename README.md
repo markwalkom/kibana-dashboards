@@ -25,3 +25,4 @@ Dashboards
 * sitefinity-sitefinity_backend_access by [@sitefinity](https://twitter.com/sitefinity) from [https://github.com/Sitefinity/ElasticsearchAuditLogger](https://github.com/Sitefinity/ElasticsearchAuditLogger/tree/master/Dashboards)
 * sitefinity-sitefinity_content_dashboard by [@sitefinity](https://twitter.com/sitefinity) from [https://github.com/Sitefinity/ElasticsearchAuditLogger](https://github.com/Sitefinity/ElasticsearchAuditLogger/tree/master/Dashboards)
 * sitefinity-sitefinity_user_updates by [@sitefinity](https://twitter.com/sitefinity) from [https://github.com/Sitefinity/ElasticsearchAuditLogger](https://github.com/Sitefinity/ElasticsearchAuditLogger/tree/master/Dashboards)
+* inliniac-suricata_netflow by [@inliniac](https://twitter.com/inliniac) from [ihttp://blog.inliniac.net/2014/07/28/suricata-flow-logging/](http://blog.inliniac.net/2014/07/28/suricata-flow-logging/)
