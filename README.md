@@ -27,3 +27,4 @@ Dashboards
 * sitefinity-sitefinity_user_updates by [@sitefinity](https://twitter.com/sitefinity) from [https://github.com/Sitefinity/ElasticsearchAuditLogger](https://github.com/Sitefinity/ElasticsearchAuditLogger/tree/master/Dashboards)
 * inliniac-suricata_netflow by [@inliniac](https://twitter.com/inliniac) from [http://blog.inliniac.net/2014/07/28/suricata-flow-logging/](http://blog.inliniac.net/2014/07/28/suricata-flow-logging/)
 * James21339540-snort by [@James21339540](https://twitter.com/James21339540) from [https://groups.google.com/d/msg/logstash-users/PWRl_svePOg/qqq-ZQq4M5EJ](https://groups.google.com/d/msg/logstash-users/PWRl_svePOg/qqq-ZQq4M5EJ)
+* marionfaugoin-simple_is_the_best by [@marionfaugoin]([https://github.com/marionfaugoin)
