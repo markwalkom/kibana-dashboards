@@ -3,8 +3,8 @@ kibana-dashboards
 
 THIS REPO IS NO LONGER MAINTAINED
 
-As Kibana 3 is no longer developed by Elastic, this repo is no longer
-maintained and is deprecated.
+As Kibana 3 is no longer maintained by Elastic, this repo is also no longer
+maintained and as such should be considered deprecated.
 
 =================
 
