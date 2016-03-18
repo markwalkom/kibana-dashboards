@@ -1,7 +1,14 @@
 kibana-dashboards
 =================
 
-A collection of Kibana dashboards from the community. Many of these have corresponding Logstash configs at the URL, so don't forget to check them!
+THIS REPO IS NO LONGER MAINTAINED
+
+As Kibana 3 is no longer developed by Elastic, this repo is no longer
+maintained and is deprecated.
+
+=================
+
+A collection of Kibana 3 dashboards from the community. Many of these have corresponding Logstash configs at the URL, so don't forget to check them!
 
 Please feel free to submit pull requests for any dashboard, with a sample screen shot, that you are willing to share. The procedure for submitting is;
 * Place dashboard under dashboards/{name|handle-}dashboard_name.json
